@@ -68,4 +68,4 @@ cloudbase init
 
 6. 就可以通过 cloudbase init --template <your_template_name>创建属于你的种子工程了。
 
-cloudbaserc.json 的更多帮助可以点击[前往](https://github.com/TencentCloudBase/cloudbase-framework/blob/master/doc/config.md)
+cloudbaserc.json 的更多帮助可以查看[配置说明](https://docs.cloudbase.net/framework/config.html)
