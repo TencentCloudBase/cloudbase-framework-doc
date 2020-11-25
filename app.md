@@ -37,7 +37,7 @@ CloudBase App 项目需要满足以下的应用 3 要素
 例如基于 CloudBase Framework 开发的 CMS 系统
 
 - 使用 CloudBase Framework 描述了应用的组成和依赖的资源如相关的数据库集合等
-- 使用 `{{env.ENV_ID}}` 这种动态变量模式引用了应用依赖的动态变量信息
+- 使用动态变量模式引用了应用依赖的动态变量信息
 
 cloudbaserc.json 文件如下所示：
 
