@@ -36,13 +36,13 @@ https://console.cloud.tencent.com/tcb/env/index?&action=CreateAndDeployCloudBase
 
 appUrl 参数允许您定义 Git 存储库 URL，如果要部署的项目位于存储库中的子目录，可以选择配置`workDir`参数来指定，用户在通过云开发控制台导入项目时会自动从指定的 Git 地址来导入代码。
 
-### 应用名称（可选）
+### 分支名
 
-参数: `appName`
+参数: `branch`
 
 类型: String
 
-使用 appName “应用名称”参数可以定义默认的应用名称，应用名称在用户自己的腾讯云账号下是唯一的。
+使用 branch “分支名”参数可以定义拉取代码时的分支名，例如 master、dev、main 等
 
 ### 项目相对目录（可选）
 
@@ -50,4 +50,4 @@ appUrl 参数允许您定义 Git 存储库 URL，如果要部署的项目位于�
 
 类型: String
 
-如果要部署的项目位于存储库中的子目录，可以选择配置`workDir`参数来指定子目录的位置。
+如果要部署的项目的 cloudbaserc.json 位于存储库中的子目录，可以选择配置`workDir`参数来指定子目录的位置。
