@@ -2,7 +2,7 @@
 
 本文档是对 `cloudbaserc.json` 中 `framework` 相关字段的说明。
 
-在使用 [CloudBase Framework](https://github.com/TencentCloudBase/cloudbase-framework) 之前，您需要需要创建一个 `cloudbaserc.json` 配置文件，`cloudbaserc.json` 文件是 CloudBase CLI 、CloudBase VSCode 插件和 CloudBase 应用的配置文件，配置文件会关系到云开发如何构建和部署您的应用。
+在使用 [CloudBase Framework](https://github.com/Tencent/cloudbase-framework) 之前，您需要需要创建一个 `cloudbaserc.json` 配置文件，`cloudbaserc.json` 文件是 CloudBase CLI 、CloudBase VSCode 插件和 CloudBase 应用的配置文件，配置文件会关系到云开发如何构建和部署您的应用。
 
 `framework` 字段是 CloudBase Framework 的配置信息，其他配置请参考 [https://docs.cloudbase.net/cli-v1/config.html](https://docs.cloudbase.net/cli-v1/config.html#zi-duan)。
 
@@ -86,7 +86,7 @@ CloudBase Framework 配置文件包含以下几类配置信息：
 | `use`    | 使用的插件 npm 包名，例如 `@cloudbase/framework-plugin-website`支持指定插件版本，例如`@cloudbase/framework-plugin-website@1.3.5` | `String` |
 | `inputs` | 插件入参配置，不同的插件，支持的入参不同，请查阅对应插件的 README 或者文档                                                       | `Object` |
 
-目前支持的插件名称请参阅 [https://github.com/TencentCloudBase/cloudbase-framework#目前支持的插件列表](https://github.com/TencentCloudBase/cloudbase-framework#目前支持的插件列表)
+目前支持的插件名称请参阅 [https://github.com/Tencent/cloudbase-framework#目前支持的插件列表](https://github.com/Tencent/cloudbase-framework#目前支持的插件列表)
 
 **示例**：
 

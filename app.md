@@ -28,8 +28,8 @@ CloudBase App 项目需要满足以下的应用 3 要素
 
 ## 应用开发文档
 
-- 如何在云函数、云托管、网站应用中注入自定义环境变量： https://github.com/TencentCloudBase/cloudbase-framework/blob/master/doc/env-variables.md
-- cloudbaserc 文件中的模板变量说明：https://github.com/TencentCloudBase/cloudbase-framework/blob/master/doc/mode.md
+- 如何在云函数、云托管、网站应用中注入自定义环境变量： https://github.com/Tencent/cloudbase-framework/blob/master/doc/env-variables.md
+- cloudbaserc 文件中的模板变量说明：https://github.com/Tencent/cloudbase-framework/blob/master/doc/mode.md
 - cloudbaserc 文件配置文档：https://docs.cloudbase.net/framework/config.html
 
 ## 应用模板示例
