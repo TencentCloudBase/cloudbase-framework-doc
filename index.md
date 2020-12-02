@@ -2,7 +2,7 @@
 
 <a href="https://github.com/Tencent/cloudbase-framework">![](https://main.qcloudimg.com/raw/d0f4f8cf03d1267c396eb4cf3570031b.png)</a>
 
-<p align="center"><a href="/Tencent/cloudbase-framework/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="Github License"></a> <a href="https://www.npmjs.com/package/@cloudbase/framework-core" rel="nofollow"><img src="https://img.shields.io/npm/v/@cloudbase/framework-core" alt="Npm version"></a>  <a href="https://www.npmjs.com/package/@cloudbase/cli" rel="nofollow"><img src="https://img.shields.io/npm/dw/@cloudbase/framework-core" alt="download"></a> <a href="https://github.com/Tencent/cloudbase-framework/issues"><img src="https://img.shields.io/github/issues/Tencent/cloudbase-framework" alt="issue"></a> <a href="https://github.com/Tencent/cloudbase-framework/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a> <a href="https://github.com/Tencent/cloudbase-framework/actions?query=workflow%3ABaseline-Init"><img src="https://github.com/Tencent/cloudbase-framework/workflows/Baseline-Init/badge.svg"></a> <a href='https://gitee.com/Tencent/cloudbase-framework/stargazers'><img src='https://gitee.com/Tencent/cloudbase-framework/badge/star.svg?theme=dark' alt='star'></img></a> <a href="https://github.com/Tencent/cloudbase-framework"><img alt="star" src="https://img.shields.io/github/stars/Tencent/cloudbase-framework?style=social" ></a>
+<p align="center"><a href="/Tencent/cloudbase-framework/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-blue" alt="Github License"></a> <a href="https://www.npmjs.com/package/@cloudbase/framework-core" rel="nofollow"><img src="https://img.shields.io/npm/v/@cloudbase/framework-core" alt="Npm version"></a>  <a href="https://www.npmjs.com/package/@cloudbase/cli" rel="nofollow"><img src="https://img.shields.io/npm/dw/@cloudbase/framework-core" alt="download"></a> <a href="https://github.com/Tencent/cloudbase-framework/issues"><img src="https://img.shields.io/github/issues/Tencent/cloudbase-framework" alt="issue"></a> <a href="https://github.com/Tencent/cloudbase-framework/pulls"><img alt="PRs Welcome" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"></a> <a href="https://github.com/Tencent/cloudbase-framework/actions?query=workflow%3ABaseline-Init"><img src="https://github.com/Tencent/cloudbase-framework/workflows/Baseline-Init/badge.svg"></a> <a href='https://gitee.com/TencentCloudBase/cloudbase-framework/stargazers'><img src='https://gitee.com/TencentCloudBase/cloudbase-framework/badge/star.svg?theme=dark' alt='star'></img></a> <a href="https://github.com/Tencent/cloudbase-framework"><img alt="star" src="https://img.shields.io/github/stars/Tencent/cloudbase-framework?style=social" ></a>
 </p>
 
 [CloudBase Framework](https://github.com/Tencent/cloudbase-framework) 是云开发官方出品的**云原生一体化部署工具**，可以帮助开发者将**静态网站、后端服务和小程序**等应用，**一键部署**到云开发 Serverless 架构的云平台上，**自动伸缩**且**无需关心运维**，聚焦应用本身，**无需关心底层配置和资源**。
@@ -208,5 +208,5 @@ cloudbase
 </table>
 
 点击进入[应用中心](https://cloudbase.net/marketplace.html)查看更多应用
-      
+
 <!-- END mdmod -->
