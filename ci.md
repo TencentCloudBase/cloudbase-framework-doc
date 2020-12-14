@@ -23,7 +23,7 @@ npm install -g @cloudbase/cli@latest
 
 如果使用 Docker 镜像来作为持续集成的运行环境，建议使用云开发官方提供的 Docker 镜像 `tencentcloudbase/cloudbase-framework-runner:latest` 作为基础镜像
 
-云开发基础构建构想内置所有必需的依赖，不用在每次构建时进行安装，提升构建部署速度
+云开发基础构建镜像内置所有必需的依赖，不用在每次构建时进行安装，提升构建部署速度
 
 - 内置 Node.js/ npm 等环境
 - 内置 最新版本 CloudBase CLI 和 CloudBase Framework
