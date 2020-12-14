@@ -1,10 +1,10 @@
 # 在持续集成（CI）环境中使用
 
-持续集成在现代软件研发流程中，扮演了十分重要的角色。通过对每次提交的代码进行自动化的单元测试、代码检查、编译构建、契约测试，甚至自动部署，能够大大降低了开发人员的工作负担，减少了许多不必要的重复劳动，持续提升代码质量和开发效率。
+持续集成可以对每次提交的代码进行自动化的单元测试、代码检查、编译构建、集成测试，然后通过持续部署的方式进行自动化的部署发布，能够降低开发人员的工作负担，减少许多不必要的重复劳动，提升研发效率。
 
 主流的持续集成平台有 Jenkins、Github Actions、GitLab CI、Coding 等
 
-您可以在这些平台中集成云开发 CloudBase Framework 来实现应用的自动化的 CI/CD。
+您可以在这些平台中集成云开发 CloudBase Framework 来实现自动化构建和部署。
 
 ## 1. 准备构建环境
 
@@ -64,13 +64,13 @@ export CI=true
 在 CI 持续集成构建中，您可以使用下面的方式通过腾讯云的 API 秘钥直接登录，避免交互式输入
 
 ```bash
-tcb login --apiKeyId xxx --apiKey xxx
+cloudbase login --apiKeyId xxx --apiKey xxx
 ```
 
 也可以使用腾讯云临时秘钥登录
 
 ```bash
-tcb login --apiKeyId xxx --apiKey xxx --token xxx
+cloudbase login --apiKeyId xxx --apiKey xxx --token xxx
 ```
 
 ## 4. 调用 CloudBase Framework 来一键部署应用
@@ -78,5 +78,5 @@ tcb login --apiKeyId xxx --apiKey xxx --token xxx
 在登录完成之后，即可调用以下命令来一键部署，`--verbose` 参数可以打印更多的构建部署信息，方便排查问题
 
 ```
-tcb framework deploy --verbose
+cloudbase framework deploy --verbose
 ```
