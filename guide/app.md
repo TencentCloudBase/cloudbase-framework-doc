@@ -91,7 +91,7 @@ WXAPP-WEB-ShowMess
 
 ##### 要点
 
-1. `envId` 指定应用部署在哪个环境下，这里我们用模板变量`{{env.ENV_ID}}`表示读取 `ENV_ID` 环境变量
+1. `envId` 指定应用部署在哪个环境下，这里我们用模板变量<code v-pre>env.ENV_ID</code>表示读取 `ENV_ID` 环境变量
 2. `framework.name` 是应用的英文名，只支持 A-Z a-z 0-9 - 和 \_，长度 1-32 位，这个例子我们使用 `techo-show` 作为应用名
 3. `framework.plugins` 是应用用到的插件信息，这里先留空，下面我们根据资源和应用类型来填写
 4. 如果需要了解更多项目信息的配置，请参考[应用项目信息说明文档](https://docs.cloudbase.net/framework/config.html#xiang-mu-xin-xi)
@@ -296,7 +296,7 @@ WXAPP-WEB-ShowMess
 
 ##### 要点
 
-1. `WX_APPID` 和 `WX_CI_KEY` 是我们需要接收的环境变量的 Key，我们可以在模板里面通过 `{{env.WX_APPID}}` 来使用，也可以在云函数和云托管里面通过环境变量来拿到这些值
+1. `WX_APPID` 和 `WX_CI_KEY` 是我们需要接收的环境变量的 Key，我们可以在模板里面通过 <code v-pre>env.WX_APPID</code> 来使用，也可以在云函数和云托管里面通过环境变量来拿到这些值
 
 2. 每个环境变量我们都用 JSON 描述来说明了这个字段的描述信息、是否必填、默认值以及校验规则用于检查用户输入
 
