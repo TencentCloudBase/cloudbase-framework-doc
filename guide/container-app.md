@@ -14,12 +14,12 @@
 
 **Nextcloud** 是一套个人云存储解决方案，内置了图片相册、日历联系人、文件管理、RSS 阅读等丰富的应用，这个应用本身是开源的，同时提供了部署的 Docker 镜像，需要搭配 MySQL 数据库，下面会演示如何实现这个应用的一键部署。
 
-![img](https://github.com/TencentCloudBase-Marketplace/nextcloud/raw/master/02.jpg)
+![img](https://tva1.sinaimg.cn/large/008eGmZEgy1gms5ocb4idj315h0u077b.jpg)
 
 
 通过云开发**一键部署**，可以部署在用户的云开发环境中，无需关心服务器管理和运维。
 
-![img](https://github.com/TencentCloudBase-Marketplace/nextcloud/raw/master/01.jpg)
+![img](https://tva1.sinaimg.cn/large/008eGmZEgy1gms5olcrnrj315b0u0gpp.jpg)
 
 
 
