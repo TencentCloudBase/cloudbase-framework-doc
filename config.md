@@ -426,13 +426,16 @@ cloudbase framework deploy --mode dev
   "envId": "{{env.ENV_ID}}",
   "$schema": "https://framework-1258016615.tcloudbaseapp.com/schema/latest.json",
   "framework": {
+    "name": "tcb-cms",
     "plugins": {
       "admin": {
         "use": "@cloudbase/framework-plugin-website",
         "inputs": {
           "outputPath": "./packages/admin/dist",
-          "installCommand": "echo \"Skip Install\"",
-          "buildCommand": "npm run build",
+          "commands": {
+            "install": "echo \"Skip Install\"",
+            "build": "npm run build"
+          },
           "cloudPath": "{{env.deployPath}}"
         }
       },
